@@ -1,0 +1,24 @@
+# Claude Code 個人設定(不上傳)
+.claude/settings.local.json
+
+# 原始大照片與未去背貼圖原檔(網頁只用 -web.jpg 與 -cut.png,原檔可不上傳以縮小 repo)
+# 若想保留原檔,刪掉下面幾行即可
+M01-短髮妹真暈.jpg
+M01-第一次18冠軍.JPG
+M01-第一次見世面.jpg
+M02-好像沒修復宜蘭的修復之旅.jpg
+M02-怎麼連生氣都這麼美.JPG
+M02-收到了五味雜陳的藥膏.jpg
+M02-開車大象OUT!!!.jpg
+M03-小小白獲得自由.jpg
+M03-真喜歡和你黏在一起.jpg
+M03-認識了彼此的家人.png
+M04-一起度過了各種節日.jpg
+M04-好愛一起搞抽象.JPG
+M04-和你在一起總是充滿快樂.jpg
+M04-被娃娃統治的日子.jpg
+STKR-01.png
+STKR-02.png
+STKR-03.png
+STKR-04.png
+STKR-04-1.png
