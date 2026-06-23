@@ -464,7 +464,11 @@
 
   /* 無障礙:尊重「減少動態效果」系統設定(暈眩/前庭敏感使用者),停用裝飾性動畫,翻頁仍即時可用 */
   @media (prefers-reduced-motion: reduce){
-    *, *::before, *::after{
+    /* 減少動態:關掉 UI 過場與裝飾浮動,但「保留」彩帶/愛心雨/泡泡這類
+       會飄落的氛圍元素 —— 它們靠 JS 設定的時長落下後才移除,若被歸零會
+       一生成就瞬間結束並被刪掉(彩帶飄一下就不見的元兇)。 */
+    *:not(.confetti):not(.falling-heart):not(.bubble),
+    *::before, *::after{
       animation-duration: .001ms !important; animation-iteration-count: 1 !important;
       transition-duration: .001ms !important; scroll-behavior: auto !important;
     }
